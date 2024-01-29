@@ -39,9 +39,11 @@
     <!--FORMULARIO-->
     <div id="menuformulario" >
         <h1>Conheça mais sobre nossos serviços:</h1>
+        <form action="https://api.sheetmonkey.io/form/q4YiG75N7sTDbKpaWX3Abm" method="post">
         <input class="inputs" type="text" placeholder="Name"><br>
         <input class="inputs" type="text" placeholder="E-mail"><br>
-        <button id="botao" class="inputs" type="submit">Fale Conosco</button>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button id="botao" class="inputs" onclick="teste('Espere um momento já entraremos em contato')" type="submit">Fale Conosco</button>
     </div>
 
     <script src="index.js"></script>
